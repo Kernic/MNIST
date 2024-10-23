@@ -39,9 +39,10 @@ In this part, the aim is not to get the same error rate as the paper cited above
 
 The code for the Neural Network can be found in [`./src/feed_forward_neral_net.py`](src/feed_forward_neural_net.py). It is the same structure as cited in the paper : 2500, 2000, 1500, 1000, 500, 10 neurons for each consecutive layer.
 3 Test where done: 
- - A control test with no modification and no learning rate change
- - A test regarding the learning rate change (from 1e-3 to 1e-6)
- - A test regarding the dataset transformation with learning rate change
+
+- A control test with no modification and no learning rate change
+- A test regarding the learning rate change (from 1e-3 to 1e-6)
+- A test regarding the dataset transformation with learning rate change
 
 Regarding the data transformation, the following transformation is applyed : 
 - RandomRotation (7)
@@ -50,7 +51,7 @@ Regarding the data transformation, the following transformation is applyed :
 
 Here are the results: 
 
-![Alt text]("./data/FeedForwardResult.png" "Accuracy levels and loss for each epoch")
+<img title="test" alt="test" src="./data/FeedForwardResult.png">
 
 As we can see, the best result was the control test, but the risk for this model is the overfitting of the model. The second best test is the data transformation. The last best test is the degrading learning.
 
