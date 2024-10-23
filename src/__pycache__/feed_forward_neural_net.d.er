@@ -1,0 +1,34 @@
+##[pylyzer] failed /home/kernic/Programming/python/IA/MNIST/src/feed_forward_neural_net.py 1729605170 3002
+.torch = pyimport "Failure"
+.Failure = pyimport "Failure"
+
+.___v_desugar_1 = pyimport "Failure"
+
+.nn: Never
+.___v_desugar_2 = pyimport "Failure"
+
+.Tensor: Never
+.___v_desugar_3 = pyimport "Failure"
+
+.uniform_: Never
+.go = pyimport "Failure"
+
+
+.copy = pyimport "Failure"
+
+
+.Type_ktanh: ClassType
+.Type_ktanh <: Never
+.Type_ktanh.A: {1.7159}
+.Type_ktanh.B: {0.6666}
+.Type_ktanh.forward: (self: feed_forward_neural_net.Type_ktanh, input: Obj) -> Never
+
+.FFNN: ClassType
+.FFNN <: Never
+.FFNN.linear_relu_stack: Never
+.FFNN.flatten: Never
+.FFNN.__call__: (init_weights: Obj := Obj) -> feed_forward_neural_net.FFNN
+.FFNN.forward: (self: feed_forward_neural_net.FFNN, x: Obj) -> Never
+.FFNN.weight_init: (self: feed_forward_neural_net.FFNN) -> NoneType
+
+

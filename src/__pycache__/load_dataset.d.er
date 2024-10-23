@@ -1,0 +1,18 @@
+##[pylyzer] failed /home/kernic/Programming/python/IA/MNIST/src/load_dataset.py 1729596870 1043
+.___v_desugar_1 = pyimport "Failure"
+.Failure = pyimport "Failure"
+.v2: Never
+.ElasticTransform: Never
+.RandomRotation: Never
+.ToTensor: Never
+.RandomResizedCrop: Never
+.___v_desugar_2 = pyimport "Failure"
+
+.datasets: Never
+.___v_desugar_3 = pyimport "Failure"
+
+.ToTensor: Never
+.___v_desugar_4 = pyimport "Failure"
+
+.DataLoader: Never
+.get_datasets: (batchsize: Obj := Obj, transform: Bool := Bool) -> Tuple([Never, Never])

@@ -1,0 +1,34 @@
+##[pylyzer] failed /home/kernic/Programming/python/IA/MNIST/src/trainer.py 1729605700 2575
+.___v_desugar_1 = pyimport "Failure"
+.Failure = pyimport "Failure"
+.SGD: Never
+.torch = pyimport "Failure"
+
+
+.copy = pyimport "Failure"
+
+
+.___v_desugar_2 = pyimport "Failure"
+
+.v2: Never
+.ElasticTransform: Never
+.RandomRotation: Never
+.ToTensor: Never
+.px = pyimport "Failure"
+
+
+.Type_trainer: ClassType
+.Type_trainer.model: Never
+.Type_trainer.lrf: Never
+.Type_trainer.corrects: Never
+.Type_trainer.test_losses: Never
+.Type_trainer.device: Never
+.Type_trainer.loss_fn: Never
+.Type_trainer.optimizer: Never
+.Type_trainer.__call__: (loss_fn: Obj, model: Obj, lrf: Obj := Obj) -> trainer.Type_trainer
+.Type_trainer.train: |Type_47251 <: Structural({.__len__ = (self: Never) -> Nat}), Type_47220 <: Structural({.dataset = Type_47251})|(self: trainer.Type_trainer, dataloader: Type_47220) -> Never
+.Type_trainer.test: |Type_47284 <: Structural({.__len__ = (self: Never) -> Nat}), Type_47223 <: Structural({.__len__ = (self: Never) -> Nat; .dataset = Type_47284})|(self: trainer.Type_trainer, dataloader: Type_47223) -> Never
+.Type_trainer.start: |Type_47284 <: Structural({.__len__ = (self: Never) -> Nat}), Type_47223 <: Structural({.__len__ = (self: Never) -> Nat; .dataset = Type_47284})|(self: trainer.Type_trainer, test_dataloader: Type_47223, train_dataloader: Structural({.dataset = Structural({.__len__ = (self: Never) -> Nat})}), epoch: {_: Int} := {5} and {_: Int}) -> NoneType
+
+e
+
