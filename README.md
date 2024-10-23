@@ -50,6 +50,8 @@ Regarding the data transformation, the following transformation is applyed :
 
 Here are the results: 
 
+![Alt text]("./data/FeedForwardResult.png" "Accuracy levels and loss for each epoch")
+
 As we can see, the best result was the control test, but the risk for this model is the overfitting of the model. The second best test is the data transformation. The last best test is the degrading learning.
 
 As the paper said the Data Transformation in each epoch is the best aproch for this type of model even if the no learning rate change is better it might be over fitting in the long run.
