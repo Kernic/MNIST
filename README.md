@@ -58,6 +58,16 @@ As we can see, the best result was the control test, but the risk for this model
 As the paper said the Data Transformation in each epoch is the best aproch for this type of model even if the no learning rate change is better it might be over fitting in the long run.
 
 ### 2. Perceptron
+#### 2.1 Description
+Perceptrons are one of the earliest types of neural networks and was implemented in 1928 by Frank Rosenblatt. Perceptrons are a single-layer neural networks where the weights are applyed on the input data and then they are sumed up. The sum is then passed through an activation layer.
+
+The perceptrons are typicaly good for classifying on 2 classes. 
+
+#### 2.2 Applicative case:
+Same ase the Feed Forward Neural Netrwork, the percetron needs a Flatten layer as an input. 
+
+#### 2.3 Testing: 
+The code for the Perceptron can be found in [`./src/perceptron.py`](src/perceptron.py)
 
 ### 3. Multilayer Perceptron
 
